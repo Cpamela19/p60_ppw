@@ -1,0 +1,409 @@
+*{
+    margin: 0px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 200px 1fr 100px;
+    grid-template-areas: "header header" "lef content" "footer footer";
+    gap: 10px;
+    height: 100vh;
+}
+
+.item{
+    border: 2px solid orange;
+    padding : 10px;
+    gap: 2px;
+}
+
+.header{
+    background-color: orange;
+    border: 2px solid chocolate;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+
+.left{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.content{
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+}
+
+.footer{
+    background-color: orange;
+    border: 2px solid chocolate;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
+.item1{   
+    display: flex;
+    color: white;
+    background-color: rgba(230, 104, 0, 0.877);
+    margin: 10px;
+    border: 2px solid chocolate;
+    padding :5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 250px;
+    text-align: left;
+}
+
+
+
+.item1:active{
+    background-color: orange;
+}
+
+.caja{
+    
+    border: 1px solid black;
+    padding: 50px;
+    height: 300px;
+    width: 600px;
+    position: absolute;
+    left: 450px;
+    top: 300px;
+    bottom: 180px;
+    
+
+}
+
+
+
+.item2{
+    border: 1px solid black;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 339px;
+    left: 150px;
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+
+}
+
+
+.item3{
+    border: 1px solid black;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 339px;
+    left: 211px;
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+    font-style: inherit;
+}
+
+.item4{
+    border: 1px solid black;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 339px;
+    left: 272px;
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+
+}
+
+.item5{
+    border: 1px solid black;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 339px;
+    left: 333px;
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+
+}
+
+.item6{
+    border: 1px solid black;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 339px;
+    left: 394px;
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+
+}
+
+.item7{
+    border: 1px solid black;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 339px;
+    left: 455px;
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+
+}
+
+.item1a{
+    border: 1px solid black;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 0px;
+    left: 211px;
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+
+}
+
+.item2a{
+    border: 1px solid black;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 0px;
+    left: 272px;
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+
+}
+
+.item3a{
+    border: 1px solid black;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 0px;
+    left: 333px;
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+
+}
+
+.item4a{
+    border: 1px solid black;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 0px;
+    left: 394px;
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+
+}
+
+.item5a{
+    border: 1px solid black;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 0px;
+    left: 455px;
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+
+}
+
+
+.item1b{
+    border: 1px solid black;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 239px;
+    left: 0px;
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+
+}
+
+.item2b{
+    border: 1px solid black;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 178px;
+    left: 0px;
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+
+}
+
+.item3b{
+    border: 1px solid black;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 117px;
+    left: 0px;
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+
+}
+
+.item4b{
+    border: 1px solid black;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 55px;
+    left: 0px;
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+
+}
+
+.item1c{
+    border: 1px solid black;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 239px;
+    right: 0px;
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+
+}
+
+.item2c{
+    border: 1px solid black;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 178px;
+    right: 0px;
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+
+}
+
+.item3c{
+    border: 1px solid black;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 117px;
+    right: 0px;
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+
+}
+
+.item4c{
+    border: 1px solid black;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 55px;
+    right: 0px;
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+
+}
+
+.item1d{
+    border: 1px solid black;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 175px;
+    right: 365px;
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+
+}
+
+.item2d{
+    border: 1px solid black;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 175px;
+    right: 304px;
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+
+}
+
+.item3d{
+    border: 1px solid black;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 175px;
+    right: 243px;
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+
+}
+
+.item4d{
+    border: 1px solid black;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 175px;
+    right: 182px;
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+
+}
+
+.centro{
+    border: 1px solid black;
+    height: 90px;
+    width: 100px;
+    position: absolute;
+    bottom: 145px;
+    left: 172px;
+}
+
+.garita{
+    border: 1px solid black;
+    height: 20px;
+    width: 60px;
+    position: absolute;
+    bottom: -10px;
+    right: 550px;
+    background-color: rgb(3, 43, 3);
+
+}
+
+.texto{
+    position: absolute;
+    bottom: 10px;
+    right: 560px;
+
+}
+

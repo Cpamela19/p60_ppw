@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <header>
+        <title>Proyecto</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="estilos3.css"/>
+        <script type="text/javascript" src="./script/script.js"></script>
+    </header>
+    <body onload="evidencia_r()">
+        <section class = "container">
+            <div class = item header centro>
+                <h1 class = "item1" ></h1>
+            </div>
+            <div class="item content">
+                <form>
+                    <table class = "tabla">
+                        <tr>
+                            <th>
+                                <ul class="formulario">
+                                    <h1 class = "item1" >Datos de la Transaccion</h1>
+                                    <li class="formulario_filaa">
+                                        <label for="numero">Numero de tramite:</label>
+                                        <input id="numero" value="" />        
+                                    </li>
+                                    <li class="formulario_filaa">
+                                        <label for="Banco">Banco:</label>
+                                        <input id="Banco" value="" />        
+                                    </li>
+                                    <li class="formulario_filaa">
+                                        <label for="fechaa">Fecha de pago:</label>
+                                        <input type="date" id="fechaa" onchange="fecha_pago()" value="" />        
+                                    </li>
+                                    <li class="formulario_filaa">
+                                        <label for="valoor">Valor de pago:</label>
+                                        <input id="valoor" value="" />        
+                                    </li>
+                                    <li class="formulario_filaa1">
+                                        <label for="subir">Subir comprobante:</label>
+                                        <input type="image" id="subir" src="./imagenes/descarga1.png" style="height: 100px;"/>        
+                                    </li>
+                                    <li class="formulario-fila">
+                                        <button type="button" onclick="Guardar()">Guardar</button>
+                                        <button type="button" onclick="cancelar()">Cancelar</button>                
+                                    </li>
+                                </ul>
+
+                            </th>
+                        </tr>
+         
+                    </table>   
+               
+                </form>                
+            </div> 
+        </section>                
+    </body>
+</html>

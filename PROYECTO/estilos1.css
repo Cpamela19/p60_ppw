@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template: 150px 1fr 50px / 1fr;
+    grid-template-areas: "header" "content" "footer";
+    height: 100vh;
+}
+
+.item1 {
+    background-color: rgb(255, 221, 221);
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 30px;
+}
+
+.item{
+    border: 1px solid black;
+}
+
+.centro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    grid-area: header;
+    color: white;
+    
+}
+
+.content {
+    grid-area: content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.usuario{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.footer {
+    grid-area: footer;
+    background-color:  aliceblue;
+    color: white;
+}
+
+.formulario {
+    background-color: whitesmoke;
+    list-style-type: none;
+    padding: 20px 10px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 90vh;
+
+
+}
+
+.formulario-fila {
+    display: flex;
+    justify-content: flex-end;
+    padding: .5em;
+}
+
+.formulario-fila1 {
+    display: flex;
+    justify-content: flex-right;
+    padding: .5em;
+    
+}
+.formulario-fila2{
+    display: flex;
+    justify-content: flex-right;
+    padding: .6em;
+    
+}
+
+.formulario-fila > label {
+    padding: .5em .1em .5em 0;
+    flex: .6 ;
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.formulario-fila > input {
+    flex: 4cm;
+}
+
+.formulario-fila1 > label {
+    padding: .5em 1em .5em 0;
+    flex: 1 ;
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.formulario-fila1 > input {
+    flex: 3;
+
+    
+}
+
+.formulario-fila2 > label {
+    padding: .5em 1em .5em 0;
+    flex: 1 ;
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.formulario-fila2 > input {
+    flex: 3;
+    
+}
+
+.formulario-fila > input, .formulario-fila > button {
+    margin: 10px;
+    padding: .5em;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.formulario-fila > button {
+    background: gray;
+    color: white;
+    border: 0px;
+    
+}
+.formulario-fila > input, .formulario-fila > a {
+    margin: 10px;
+    padding: .5em;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    
+}
+
+.formulario-fila > a {
+    background: gray;
+    color: white;
+    border: 0px;
+    
+}

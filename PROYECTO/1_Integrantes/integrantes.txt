@@ -1,0 +1,10 @@
+PROYECTO DE PROGRAMACION
+
+INTEGRANTES
+-Jonathan Haz Guaman
+-Ramiro Oñate
+-Pamela Cajamarca Palma
+
+
+Orden de la interfaz
+-Se comienza por index.html

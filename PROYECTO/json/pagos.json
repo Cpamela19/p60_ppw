@@ -1,0 +1,94 @@
+[
+    {
+        "num_tramite": 1,
+        "ano": 2022,
+        "mes": 7,
+        "fecha_pago": "29/5/2022",
+        "valor": 90,
+        "estado": "PENDIENTE",
+        "evidencia": ""
+    },
+    {
+        "num_tramite": 2,
+        "ano": 2022,
+        "mes": 5,
+        "fecha_pago": "28/4/2022",
+        "valor": 110,
+        "estado": "PAGADA",
+        "evidencia": ""
+    },
+    {
+        "num_tramite": 3,
+        "ano": 2022,
+        "mes": 3,
+        "fecha_pago": "15/4/2022",
+        "valor": 100,
+        "estado": "EN MORA",
+        "evidencia": ""
+    },
+    {
+        "num_tramite": 4,
+        "ano": 2022,
+        "mes": 2,
+        "fecha_pago": "10/3/2022",
+        "valor": 90,
+        "estado": "EN MORA",
+        "evidencia": ""
+    },
+
+    {
+        "num_tramite": 5,
+        "ano": 2022,
+        "mes": 1,
+        "fecha_pago": "10/1/2022",
+        "valor": 90,
+        "estado": "EN MORA",
+        "evidencia": ""
+    },
+    {
+        "num_tramite": 6,
+        "ano": 2021,
+        "mes": 11,
+        "fecha_pago": "10/11/2021",
+        "valor": 90,
+        "estado": "PAGADA",
+        "evidencia": ""
+    },
+    {
+        "num_tramite": 7,
+        "ano": 2021,
+        "mes": 10,
+        "fecha_pago": "20/10/2021",
+        "valor": 90,
+        "estado": "PAGADA",
+        "evidencia": ""
+    },
+    {
+        "num_tramite": 8,
+        "ano": 2021,
+        "mes": 9,
+        "fecha_pago": "15/9/2021",
+        "valor": 90,
+        "estado": "PAGADA",
+        "evidencia": ""
+    },
+    {
+        "num_tramite": 9,
+        "ano": 2021,
+        "mes": 8,
+        "fecha_pago": "7/3/2021",
+        "valor": 90,
+        "estado": "PAGADA",
+        "evidencia": ""
+    },
+    {
+        "num_tramite": 10,
+        "ano": 2021,
+        "mes": 7,
+        "fecha_pago": "12/3/2021",
+        "valor": 90,
+        "estado": "PAGADA",
+        "evidencia": ""
+    }
+
+]

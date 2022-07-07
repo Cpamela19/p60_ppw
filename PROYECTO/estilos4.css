@@ -1,0 +1,163 @@
+* {
+    margin: 0px;
+    
+}
+.container {
+    display: grid;
+    grid-template: 50px 1fr / 1fr;
+    grid-template-areas: "header" "content";
+    height: 100vh;
+}
+
+.item1 {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.header {
+    grid-area: header;
+    
+}
+
+.content {
+    grid-area: content;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+
+.formulario{
+    list-style-type: none;
+    padding: 5px 5px;
+    margin: 30px;
+
+}
+.formulario_fila {
+    display: flex;
+    margin-top: 10px;
+}
+
+
+.formulario_filaa {
+    display: flex;
+    margin-top: 10px;
+    
+}
+.formulario_fila1 {
+    margin-top: 10px;
+    
+}
+.formulario_fila2 {
+    margin-top: 10px;
+    
+}
+
+.formulario-fila {
+    margin-top: 10px;
+    
+}
+
+.formulario_fila > label {
+    margin: 5px;
+    margin-right: -1.5cm;
+    flex: 5;
+    text-align: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+   
+}
+
+.formulario_fila > input {
+    margin: 5px;
+    flex: 3;
+    width: 10%;
+
+   
+    
+}
+
+.formulario_filaa > label {
+    margin: 5px;
+    flex: 8;
+    text-align: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+   
+}
+
+.formulario_filaa > input {
+    margin: 5px;
+    flex: 8;
+    
+}
+
+.formulario_fila1 > label {   
+    float: left;
+    margin: 5px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+
+   
+}
+
+.formulario_fila1 > input {
+    position: relative;
+    margin: 2px;
+    margin-left: -3cm;
+    
+    
+}
+
+.formulario_fila2 > label {
+    float: left;
+    margin: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+
+   
+}
+
+.formulario_fila2 > input {
+    position: relative;
+    margin: 2px;
+    margin-right: -9px;
+    
+    
+}
+
+.formulario-fila > button {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.formulario-fila > input, .formulario-fila > button {
+    margin: 10px;
+    margin-top: 10px;
+    padding: .5em;
+    font-size: 20px;
+
+}
+
+.tabla{ 
+    display: flex;   
+    margin: 2px;
+    margin-top: 10px;
+
+}
+
+.tr, th{
+    border: 2px solid black;
+
+
+}

@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    
+}
+.container {
+    display: grid;
+    grid-template: 150px 1fr / 1fr;
+    grid-template-areas: "header" "content";
+    height: 100vh;
+}
+
+.item {
+    border: 0px solid black;
+    
+}
+
+.item1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+}
+
+.centro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    grid-area: header;
+    
+}
+
+.content {
+    grid-area: content;
+    justify-content: center;
+
+}
+
+
+.formulario{
+    list-style-type: none;
+    padding: 5px 5px;
+
+
+}
+
+.formulario_filaa {
+    display: flex;
+    justify-content: flex-right;
+    margin-top: 4px;
+}
+
+
+.formulario_filaa > label {
+    flex: .15;
+    text-align: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+   
+}
+
+.formulario_filaa > input {
+    flex: .1;
+    font-size: 20px;
+}
+
+
+table th{
+    width: 20em;
+
+}
+
+.tabla{
+    float: left;
+    margin: 2px;
+    margin-top: 1rem;
+    border-collapse: collapse;
+
+}
+
+.tr, th{
+    border: 2px solid black;
+    font-size: 25px;
+
+
+}
+
+#table{
+    border: 2px solid black;
+}
+
+#table tr, th{
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+}
+
+.verde{
+    background-color: green;
+
+}
+
+.rojo{
+    background-color: red;
+}
+
+.amarillo{
+    background-color: yellow;
+}
+
+#nom{
+    font-size: 20px;
+}
+
+
+#fechadeinicio{
+    font-size: 20px;
+}
+
+#nomb{
+    font-size: 20px;
+}
+
+
+#fechadeinicio1{
+    font-size: 20px;
+}
+
+
+
+
+

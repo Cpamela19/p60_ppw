@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+    <header>
+        <title>Proyecto</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="estilos4.css"/>
+        <script type="text/javascript" src="./script/script.js"></script>
+    </header>
+    <body onload="verificar_a()">
+        <section class = "container">
+            <div class = item header centro>
+                <h1 class = "item1" ></h1>
+            </div>
+            <div class="item content">
+                <form>
+                    <table class = "tabla">
+                        <tr>
+                            <th>
+                                <ul class="formulario">
+                                    <h1 class = "item1" >Datos de la Transaccion</h1>
+                                    <li class="formulario_fila">
+                                        <label for="manzana">Manzana:</label>
+                                        <input type="text" id="manzana" value="" />   
+                                        <label for="villa">Villa:</label>
+                                        <input type="text" id="villa" value="" />        
+                                    </li>
+                                    <li class="formulario_filaa">
+                                        <label for="numero">Numero de tramite:</label>
+                                        <input type="text" id="numero" value="" />        
+                                    </li>
+                                    <li class="formulario_filaa">
+                                        <label for="Banco">Banco:</label>
+                                        <input type="text" id="Banco" value="" />        
+                                    </li>
+                                    <li class="formulario_filaa">
+                                        <label for="fechaa">Fecha de pago:</label>
+                                        <input type="date" id="fechaa" value="" />        
+                                    </li>
+                                    <li class="formulario_filaa">
+                                        <label for="valoor">Valor de pago:</label>
+                                        <input type="text" id="valoor" value="" />        
+                                    </li>
+                                  
+                                    <li class="formulario_fila1">
+                                        <label for="subir">Subir comprobante:</label>
+                                        <input type="image" id="subir" src="./imagenes/descarga1.png" style="height: 90px"/>        
+                                    </li>
+
+                                    <li class="formulario_fila2">
+                                        <label for="verificar">Verificar:</label>
+                                        <input type="image" id="verificar" src="./imagenes/check.png" style="height: 40px"/> 
+                                        <input type="image" id="verificar" src="./imagenes/Time.png" style="height: 40px"/> 
+                                        <input type="image" id="verificar" src="./imagenes/wrong.png" style="height: 40px"/> 
+                                    </li>
+                                    <li class="formulario-fila">
+                                        <button type="button" onclick="guardar1()">Guardar</button>
+                                        <button type="button" onclick="cancelar1()">Cancelar</button>                
+                                    </li>
+                                </ul>
+
+                            </th>
+                        </tr>
+         
+                    </table>   
+               
+                </form>                
+            </div> 
+        </section>                
+    </body>
+</html>

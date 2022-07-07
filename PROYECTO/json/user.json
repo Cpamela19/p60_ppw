@@ -1,0 +1,236 @@
+[
+    {
+        "manzana": 4,
+        "villa": 1,
+        "cedula": "0945718519",
+        "nombre": "Luís" ,
+        "apellido": "Fernando",
+        "telefono": "0937465753",
+        "correo_electronico": "jb@gmail.com",
+        "fechainicio": "27/12/2020"
+    },
+    {
+        "manzana": 4,
+        "villa": 2,
+        "cedula": "0943067232",
+        "nombre": "Juan José ",
+        "apellido": "Cardenal",
+        "telefono": "0938588834",
+        "correo_electronico": "jjcq@gmail.com",
+        "fechainicio": "27/05/2021"
+    },
+    {
+        "manzana": 4,
+        "villa": 3,
+        "cedula": "0957151032",
+        "nombre": "Eloísa",
+        "apellido": " Juarez",
+        "telefono": "0940507421",
+        "correo_electronico": "epv@gmail.com",
+        "fechainicio": "27/11/2020"
+    },
+    {
+        "manzana": 4,
+        "villa": 4,
+        "cedula": "0936834767",
+        "nombre": "Joan",
+        "apellido": "Perez",
+        "telefono": "0946861279",
+        "correo_electronico": "jlz@gmail.com",
+        "fechainicio": "17/10/2020"
+    },
+    {
+        "manzana": 4,
+        "villa": 5,
+        "cedula": "0955767825",
+        "nombre": "Sonia ",
+        "apellido": "Coloma",
+        "telefono": "0941819729",
+        "correo_electronico": "mcf@gmail.com",
+        "fechainicio": "22/05/2021"
+    },
+    {
+        "manzana": 4,
+        "villa": 6,
+        "cedula": "0956878318",
+        "nombre": "Julio ",
+        "apellido": "Moncayo",
+        "telefono": "0945407666",
+        "correo_electronico": "julio-elpro12@hotmail.com",
+        "fechainicio": "15/08/2020"
+    },
+    {
+        "manzana": 2,
+        "villa": 1,
+        "cedula": "0973653562",
+        "nombre": "Gregory ",
+        "apellido": "Ramos",
+        "telefono": "0938852595",
+        "correo_electronico": "ikerg@gmail.com",
+        "fechainicio": "15/09/2021"
+    },
+    {
+        "manzana": 2,
+        "villa": 2,
+        "cedula": "0947194375",
+        "nombre": "Emperatriz Noelia ",
+        "apellido": "Rosales Uriarte",
+        "telefono": "0945624984",
+        "correo_electronico": "noelia@gmail.com",
+        "fechainicio": "30/10/2021"
+    },
+    {
+        "manzana": 2,
+        "villa": 3,
+        "cedula": "0937550787",
+        "nombre": "Loreto",
+        "apellido": "Nicolás Redondo",
+        "telefono": "0944983983",
+        "correo_electronico": "lnr@gmail.com",
+        "fechainicio": "25/11/2020"
+    },
+    {
+        "manzana": 2,
+        "villa": 4,
+        "cedula": "0947694983",
+        "nombre": "Jacobo ",
+        "apellido": "Calderon Sales",
+        "telefono": "943346685",
+        "correo_electronico": "jacob@gmail.com",
+        "fechainicio": "25/11/2020"
+    },
+    {
+        "manzana": 2,
+        "villa": 5,
+        "cedula": "0938945977",
+        "nombre": "Segismundo ",
+        "apellido": "Sureda Armengol",
+        "telefono": "0940090625",
+        "correo_electronico": "",
+        "fechainicio": "25/11/2020"
+    },
+    {
+        "manzana": 3,
+        "villa": 1,
+        "cedula": "0951579604",
+        "nombre": "Jesusa ",
+        "apellido": "Chico Belda",
+        "telefono": "0944494020",
+        "correo_electronico": "jesus@gmail.com",
+        "fechainicio": "22/12/2021"
+    },
+    {
+        "manzana": 3,
+        "villa": 2,
+        "cedula": "0928885320",
+        "nombre": "Rodolfo ",
+        "apellido": "Cámara Cobo",
+        "telefono": "0937636225",
+        "correo_electronico": "rodolf@gmail.com",
+        "fechainicio": "13/07/2021"
+    },
+    {
+        "manzana": 3,
+        "villa": 3,
+        "cedula": "0974906360",
+        "nombre": "Sandalio",
+        "apellido": "Juliá Monreal",
+        "telefono": "941059671",
+        "correo_electronico": "juli@gmail.com",
+        "fechainicio": "12/09/2021"
+    },
+    {
+        "manzana": 3,
+        "villa": 4,
+        "cedula": "0948671389",
+        "nombre": "Julián ",
+        "apellido": "Real-Goñi",
+        "telefono": "0943929137",
+        "correo_electronico": "real@gmail.com",
+        "fechainicio": "18/12/2021"
+    },
+    {
+        "manzana": 5,
+        "villa": 1,
+        "cedula": "0960022408",
+        "nombre": "Irene ",
+        "apellido": "Rosell Solís",
+        "telefono": "0937838160",
+        "correo_electronico": "ire@gmail.com",
+        "fechainicio": "25/11/2020"
+    },
+    {
+        "manzana": 5,
+        "villa": 2,
+        "cedula": "0971860766",
+        "nombre": "Cleto Segarra ",
+        "apellido": "Baeza",
+        "telefono": "0943971411",
+        "correo_electronico": "cleto@gmail.com",
+        "fechainicio": "10/10/2020"
+    },
+    {
+        "manzana": 5,
+        "villa": 3,
+        "cedula": "0977738351",
+        "nombre": "Cecilia ",
+        "apellido": "Guerra Verdejo",
+        "telefono": "0946082080",
+        "correo_electronico": "ceci@gmail.com",
+        "fechainicio": "11/08/2021"
+    },
+    {
+        "manzana": 5,
+        "villa": 4,
+        "cedula": "0940035980",
+        "nombre": "Cebrián ",
+        "apellido": "Maestre Miralles",
+        "telefono": "0938269818",
+        "correo_electronico": "cmm@gmail.com",
+        "fechainicio": "10/10/2020"
+    },
+    {
+        "manzana": 1,
+        "villa": 1,
+        "cedula": "0947186603",
+        "nombre": "Catalina ",
+        "apellido": "Arellano",
+        "telefono": "0944805859",
+        "correo_electronico": "cataliana@gmail.com",
+        "fechainicio": "10/10/2020"
+    },
+    {
+        "manzana": 1,
+        "villa": 2,
+        "cedula": "0959560801",
+        "nombre": "Bernardita ",
+        "apellido": "Marqués Fábregas",
+        "telefono": "0938141622",
+        "correo_electronico": "bernar@gmail.com",
+        "fechainicio": "22/05/2021"
+    },
+    {
+        "manzana": 1,
+        "villa": 3,
+        "cedula": "0937253884",
+        "nombre": "Macaria ",
+        "apellido": "Rivas Alemán",
+        "telefono": "0944557390",
+        "correo_electronico": "maca@gmail.com",
+        "fechainicio": "22/05/2021"
+    },
+    {
+        "manzana": 1,
+        "villa": 4,
+        "cedula": "0936776491",
+        "nombre": "Alicia ",
+        "apellido": "Mur Montaña",
+        "telefono": "0939168350",
+        "correo_electronico": "alicia@gmail.com",
+        "fechainicio": "27/11/2020"
+    }
+
+   
+]
+
+
